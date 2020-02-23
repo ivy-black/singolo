@@ -1,1 +1,1 @@
-https://ivy-black.github.io/singolo/
+https://ivy-black.github.io/singolo/singolo1.html
