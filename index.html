@@ -175,11 +175,11 @@
     <h1>Get a Quote</h1>
     <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
     <form action="" method="POST">
-        <input class="form-control" id="inputName" placeholder="Name (Required)" required type="name" pattern="[A-Za-z]" title="Only letters"/>
+        <input class="form-control" id="inputName" placeholder="Name (Required)" required type="name" pattern="[A-Za-z.-]{1,}" title="Only letters"/>
         <input class="form-control" id="inputEmail" placeholder="Email (Required)" required type="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter corret email format"/>
         <input class="form-control" id="inputSubject" placeholder="Subject"  type="text"/>
         <input class="form-control" id="inputMessage" placeholder="Describe your project in detail..."  type="text"/>
-       
+       <input type="submit" id="submit_btn" value="Submit">
     </form>
     <div class="contact">
       <h3>Contact Information</h3>
