@@ -11,28 +11,33 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
+
   body {
     position: absolute;
     width: 100%;
     height: 100%;
     margin: auto;
   }
+
   .container {
     margin: auto;
     max-width: 1020px;
     width: 100%;
     height: 100%;
   }
+
   header {
     width: 100%;
     height: 89px;
     background-color: #2d303a;
     margin-bottom: 0;
   }
+
   .logo {
     position: absolute;
     margin-left: 41px;
   }
+
   #singolo {
     font-size: 24px;
     line-height: 6px;
@@ -42,6 +47,7 @@
     position: absolute;
     padding-top: 41.4px;
   }
+
   #star {
     font-size: 23px;
     color: #e36861;
@@ -75,6 +81,7 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+
   nav a:hover {
     background-color: rgb(36, 46, 51);
   }
@@ -102,10 +109,10 @@
     margin-top: 80px;
     margin-bottom: 0;
   }
+
   .mySlides img {
     position: absolute;
-    padding-left: 110px;
-  
+    padding-left: 110px;  
     top: 0;
   }
   
@@ -127,20 +134,24 @@
     height: 6px;
     background-color: #ea676b;
   }
+
   #line_head {
     height: 5px;
     margin-top: 0;
     border: solid #323746;
     background-color: #323746;
   }
+
   #line_serv {
     height: 6px;
     background-color: #ffffff;
   }
+
   .prev {
     margin-top: 270px;
     margin-left: 40px;
   }
+
   .next {
     margin-top: 270px;
     margin-left: 960px;
@@ -152,6 +163,7 @@
     background-color: #f2f2f2;
     height: 494px;
   }
+
   .serv_wrapper {
     display: grid;
     margin-left: 41px;
@@ -162,8 +174,7 @@
   
   .serv_descr {
     padding-top: 61px;
-    padding-left: 40px;
-  
+    padding-left: 40px;  
     width: 1000px;
     height: 57px;
     font-size: 18px;
@@ -175,11 +186,13 @@
     margin-bottom: 155px;
     letter-spacing: -0.07px;
   }
+
   .serv_descr h1 {
     font-size: 30px;
     margin-bottom: 22px;
     letter-spacing: 0.3px;
   }
+
   .serv {
     width: 300px;
     height: 123px;
@@ -190,9 +203,9 @@
     font-weight: 400;
     text-align: left;
     word-wrap: break-word;
-    letter-spacing: 0.1px;
-   
+    letter-spacing: 0.1px;   
   }
+
   .serv img {
     padding-top: 2.7px;
     width: 80px;
@@ -200,29 +213,30 @@
     padding-right: 20px;
     margin-bottom: 20px;
   }
+
   .serv h2 {
-    margin-bottom: 10px;
-  
-    letter-spacing: 0.18px;
-    
+    margin-bottom: 10px;  
+    letter-spacing: 0.18px;    
     font-size: 18px;
-line-height: 18px;
-color: #666d89;
-font-family: "Lato";
-font-weight: 900;
-text-align: left;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
   }
+
   .portfolio {
     background-color: #2d303a;
-    height: 864px;
-  
+    height: 864px;  
     width: 100%;
   }
+
   .portfolio_line{
     width: 1020px;
-  height: 6px;
-  background-color: #323746;
+    height: 6px;
+    background-color: #323746;
   }
+
   .portfolio h2 {
     font-size: 30px;
     line-height: 18px;
@@ -234,6 +248,7 @@ text-align: left;
     padding-top: 68px;
     letter-spacing: 0.7px;
   }
+
   .portfolio p {
     width: 800px;
     height: 57px;
@@ -247,16 +262,18 @@ text-align: left;
     padding-top: 27px;
     letter-spacing: -0.22px;
   }
+
   .artwork{
     font-size: 12px;
-  line-height: 15px;
-  color: #767e9e;
-  font-family: "Lato";
-  font-weight: 400;
-  text-align: left;
-  margin-left: 40px;
-  margin-top: 10px;
+    line-height: 15px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
   }
+
   .artwork button{
   height: 22px;
   border-radius: 5px;
@@ -273,39 +290,40 @@ text-align: left;
   text-align: center;
   cursor: pointer;
   }
+
   .artwork button:focus{
     border-color: white;
     border-radius: 5px;
     outline: none;
     color: white;
   }
+
   .portfolio .wrapper{
     display: grid;
-    grid-template-columns: repeat(4, 240px);
-   
-   margin-left: 40px;
-   margin-top: 20px;
+    grid-template-columns: repeat(4, 240px);   
+    margin-left: 40px;
+    margin-top: 20px;
     grid-auto-rows: minmax(100px, auto);
   }
+
   .wrapper div{
-    margin-bottom: 17px;
-  
+    margin-bottom: 17px;  
   }
-  .wrapper div img{
-  
+
+  .wrapper div img{  
     float: left;
   }
   
-  
   .aboutUs{
-    width: 1020px;
+  width: 1020px;
   height: 728px;
   background-color: #f2f2f2;
   padding-top: 67px;
   padding-left: 40px;
   }
-  .aboutUs .descr h2{
-    font-size: 30px;
+
+  .aboutUs .descr h2{    
+  font-size: 30px;
   line-height: 18px;
   color: #666d89;
   font-family: "Lato";
@@ -314,8 +332,9 @@ text-align: left;
   padding-bottom: 27px;
   letter-spacing: 0.5px;
   }
+
   .aboutUs .descr p{
-    width: 940px;
+  width: 940px;
   height: 57px;
   font-size: 18px;
   line-height: 30px;
@@ -324,8 +343,7 @@ text-align: left;
   font-weight: 300;
   text-align: left;
   letter-spacing: -0.22px;
-  text-align: justify;
-  
+  text-align: justify;  
   }
   
   .aboutUs .persInfo p{
@@ -355,12 +373,10 @@ text-align: left;
   .aboutUs_wrapper{
     display: grid;
     grid-template-columns: repeat(3, 240px);
-   grid-gap: 79.6px;
-  
-   padding-top: 47px;
+    grid-gap: 79.6px;  
+    padding-top: 47px;
     grid-auto-rows: minmax(100px, auto);
-  }
-  
+  }  
   
   .socialM img{
     margin-right: 2px;
@@ -369,8 +385,8 @@ text-align: left;
   
   .aboutUs_line{
     width: 1020px;
-  height: 6px;
-  background-color: #ffffff;
+    height: 6px;
+    background-color: #ffffff;
   }
 
   .quote{
@@ -378,6 +394,7 @@ text-align: left;
     background-color: #f06c64;
     width: inherit;
   }
+
   .quote_line{
     height: 6px;
     background-color: #ea676b;
@@ -394,6 +411,7 @@ text-align: left;
     padding: 66px 0 0 40px;
     letter-spacing: 0.4px;
   }
+
   .quote p{
     width: 980px;
     height: 57px;
@@ -407,19 +425,19 @@ text-align: left;
     letter-spacing: -0.22px;
     text-align: justify;
   }
-  .quote #inputName {
-  width: 619px;
-  height: 38px;
-  border-radius: 5px;
-  background-color: #d6564f;
-margin: 3px 0 16px 0;
 
-   font-size: 12px;
-line-height: 22px;
-color: #f48c8f;
-font-family: "Lato";
-font-weight: 400;
-text-align: left;
+  .quote #inputName {
+    width: 619px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin: 3px 0 16px 0;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
 }
 
 .quote #inputEmail{
@@ -428,11 +446,11 @@ text-align: left;
     border-radius: 5px;
     background-color: #d6564f;
     font-size: 12px;
-line-height: 22px;
-color: #f48c8f;
-font-family: "Lato";
-font-weight: 400;
-text-align: left;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
 }
 
 .quote #inputSubject{
@@ -448,20 +466,20 @@ text-align: left;
     font-weight: 400;
     text-align: left;
 }
+
 .quote #inputMessage{
     width: 619px;
-height: 202px;
-border-radius: 5px;
-background-color: #d6564f;
-margin: 16px 0 0 0;
-font-size: 12px;
-line-height: 22px;
-color: #f48c8f;
-font-family: "Lato";
-font-weight: 400;
-text-align: left;
+    height: 202px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin: 16px 0 0 0;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
 }
-
 
 @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
     .quote #inputMessage {
@@ -470,13 +488,11 @@ text-align: left;
     }
   }
  
-
   _:-ms-lang(x), _:-webkit-full-screen, .quote #inputMessage {
     padding-bottom: 165px;
     color: #f48c8f;
 }
   
-
   ::placeholder {
     font-size: 12px;
     line-height: 22px;
@@ -498,31 +514,34 @@ text-align: left;
     padding-left: 14px;
     opacity: 1;
   }
-form{
-   
+
+  form{
     margin-top: 70px;
     margin-left: 40px;
-width: 630px;
+    width: 630px;
 }
-form #submit_btn{
-margin-top: 25px;
-width: 80px;
-height: 30px;
-border-radius: 5px;
-color: #f48c8f;
-cursor: pointer;
-background-color: #f0d8d9;
+
+  #submit_btn{
+    margin-top: 25px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: #f48c8f;
+    cursor: pointer;
+    background-color: #f0d8d9;
 }
+
 .quote .contact h3{
-  font-size: 18px;
-line-height: 18px;
-color: #f0d8d9;
-font-family: "Lato";
-font-weight: 900;
-text-align: left;
-margin-top: 0px;
-letter-spacing: 0.3px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-top: 0px;
+    letter-spacing: 0.3px;
 }
+
 .quote .contact p{
   width: 300px;
   height: 100px;
@@ -533,11 +552,12 @@ letter-spacing: 0.3px;
   letter-spacing: -0.3px;
   font-weight: 400;
   text-align: left;
-margin-right: 90px;
-padding-left: 0 !important;
-padding-top: 10px !important;
-margin-bottom: 8px;
+    margin-right: 90px;
+    padding-left: 0 !important;
+    padding-top: 10px !important;
+    margin-bottom: 8px;
 }
+
 .quote .contact{
   position: absolute;
   right: 0px;
@@ -546,6 +566,7 @@ margin-bottom: 8px;
   margin: 3015px 480px 0 0;
   height: 200px;
 }
+
 _:-ms-lang(x), _:-webkit-full-screen, .quote .contact{
     position: absolute;
     right: 0px;
@@ -555,15 +576,14 @@ _:-ms-lang(x), _:-webkit-full-screen, .quote .contact{
     height: 200px;
   }
 
-
-.contact p.cont_data{
- 
- letter-spacing: 0px;
-  padding-bottom: 3.3px;
-  height: 5px !important;
+.contact p.cont_data{ 
+    letter-spacing: 0px;
+    padding-bottom: 3.3px;
+    height: 5px !important;
 }
+
 .contact img{
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 footer{
@@ -572,19 +592,21 @@ footer{
     background-color: #2d303a;
     display: inline-flex;
   }
+
 footer .socialM{
     float: right;
     padding-top: 20px;
     padding-left: 693px;
     cursor: pointer;
 }
+
 footer .copyR{
     font-size: 12px;
-line-height: 6px;
-color: #666d89;
-font-family: "Lato";
-font-weight: 400;
-text-align: left;
-padding-top: 35px;
-padding-left: 41px;
+    line-height: 6px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 41px;
 }
