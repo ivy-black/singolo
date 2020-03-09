@@ -364,6 +364,7 @@ text-align: left;
   
   .socialM img{
     margin-right: 2px;
+    cursor: pointer;
   }
   
   .aboutUs_line{
@@ -461,16 +462,33 @@ font-weight: 400;
 text-align: left;
 }
 
-   .quote #inputMessage::placeholder {
-       display: inline-block;
-       
-   padding-bottom: 40px !important;
-   line-height: 10px;
-   vertical-align: text-top !important;
-  
-  
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+    .quote #inputMessage {
+        padding-bottom: 165px;
+        color: #f48c8f;
+    }
   }
+ 
+
+  _:-ms-lang(x), _:-webkit-full-screen, .quote #inputMessage {
+    padding-bottom: 165px;
+    color: #f48c8f;
+}
+  
+
   ::placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 14px;
+    opacity: 1;
+  }
+
+  .form-control::-ms-input-placeholder {
     font-size: 12px;
     line-height: 22px;
     color: #f48c8f;
@@ -484,7 +502,16 @@ form{
    
     margin-top: 70px;
     margin-left: 40px;
-    width: 1020px;
+width: 630px;
+}
+form #submit_btn{
+margin-top: 25px;
+width: 80px;
+height: 30px;
+border-radius: 5px;
+color: #f48c8f;
+cursor: pointer;
+background-color: #f0d8d9;
 }
 .quote .contact h3{
   font-size: 18px;
@@ -494,6 +521,7 @@ font-family: "Lato";
 font-weight: 900;
 text-align: left;
 margin-top: 0px;
+letter-spacing: 0.3px;
 }
 .quote .contact p{
   width: 300px;
@@ -518,6 +546,16 @@ margin-bottom: 8px;
   margin: 3015px 480px 0 0;
   height: 200px;
 }
+_:-ms-lang(x), _:-webkit-full-screen, .quote .contact{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    top: 0px;
+    margin: 3015px 420px 0 0;
+    height: 200px;
+  }
+
+
 .contact p.cont_data{
  
  letter-spacing: 0px;
@@ -538,6 +576,7 @@ footer .socialM{
     float: right;
     padding-top: 20px;
     padding-left: 693px;
+    cursor: pointer;
 }
 footer .copyR{
     font-size: 12px;
